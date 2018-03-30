@@ -1,0 +1,18 @@
+<div class="container">
+    
+<h1> Beitrag anzeigen </h1>
+
+<h2> <%= @post.title %> </h2>
+
+<p> <%= @post.content.html_safe %> </p>
+<p> <%= @post.image_url %> </p>
+<small> <%= @post.created_at %> </small>
+<% if user_signed_in? %>
+<p><%= link_to "Bearbeiten", edit_post_path(@post) %>
+| <%= link_to "Löschen", @post, :data => {:confirm => "Bist du sicher?"}, :method => :delete %></p>
+<% end %>
+
+<%= render 'disqus' %>  
+</div>
+
+       

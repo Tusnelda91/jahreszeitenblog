@@ -1,0 +1,28 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//.parallax statt #about, img statt images
+
+#about {
+  background-image: url("../assets/laura-aziz-78175.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  height: 1400px;
+  color: #ffff33;
+}
+		   
+.abouttext {
+ padding-left: 0.6em; 
+}
+
+
+.selector {
+  position: relative;
+}
+
+.gedicht {
+    font-style: italic;
+}

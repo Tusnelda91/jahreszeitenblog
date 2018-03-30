@@ -12,5 +12,37 @@
 //
 //= require jquery
 //= require jquery_ujs
+
+//= require twitter/bootstrap
+
 //= require turbolinks
 //= require_tree .
+
+//= require tinymce
+
+//= require jquery
+
+//= require jquery_ujs
+
+//= require turbolinks
+
+//= require_jquery.min
+
+//= require_jquery-3.2.1.min
+
+//= require_jquery.easeScroll
+
+//= require_jquery.logosDistort.min
+
+//= require_jquery.particleground.min
+
+//= require_jquery.jquery.scrollmagic.min
+
+//<script src="js/work.js"> </script>
+//<script src="js/scripts.js"> </script>
+  //<script src="js/jquery.stellar.min.js"> </script>
+  
+  //<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  //<!-- Bootstrap core JS -->
+  //<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  

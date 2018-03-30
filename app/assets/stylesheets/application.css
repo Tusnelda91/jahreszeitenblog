@@ -5,7 +5,7 @@
  * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
  * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+* You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+ /*
+ *= require bootstrap_and_overrides
+ */
+
+/* Your stylesheets goes here... */ 
+
+/*<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">*/
+  
+/*/.nav.navbar.navbar-expand-lg.navbar-light.fixed-top*/ 
+/*div class="collapse navbar-collapse" id="navbarResponsive">*/
+  
+/*#mainNav {
+    background-color: #000;
+}
+navbar-nav.ml-auto  ul  nav-item #brand nav.navbar-nav.navbar-right .collapse.navbar-collapse #bs-example-navbar-collapse-1
+.li  navbar-header page-scroll  .container-fluid #top
+*/
+
+#uberschrift, .subheading {
+  color: #ffff33;  
+}
+
+nav.navbar.navbar-default.navbar-custom.navbar-fixed-top {
+	background-color: #000;
+	color: #ffff33;
+}
+
+.collapse.navbar-collapse, .ul, .li {
+    color: #ffff33;
+}
+
+#brand {
+    color: #ffff33;
+    padding-right: 2em;
+}
+
+.main-content {
+    padding-top: 50px;
+    padding-left: 0.6em;
+    background-color: #ffff33;
+}
+
+#footer-copyright {
+    
+    font-size: small;
+    
+}
